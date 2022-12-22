@@ -1,0 +1,338 @@
+:root {
+    --site-medium-blue: rgb(90, 121, 165);
+    --site-light-blue: rgb(190, 206, 237);
+    --sitegreytrans: #38384c00;
+    --sitegrey: #38384c;
+    --bluetext: #4f95ff;
+    --color-b: black;
+    --color-w: #fff;
+    --color-r: rgb(255, 0, 0);
+    --color-y: rgb(245, 245, 9);
+    --color-g: rgb(12, 236, 12);
+    --color-b: rgb(9, 9, 245);
+    --color-a: rgb(127, 255, 212);
+    --color-p: rgb(255, 192, 203);
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    :root {
+      scroll-behavior: smooth;
+    }
+  }
+
+  body {
+    background: #372f5c;
+  }
+  
+  .blueline {
+    border: 3px dashed blue;
+  }
+  .redline {
+    border: 3px dashed red;
+  }
+  .greenline {
+    border: 3px dashed green;
+  }
+  .yellowline {
+    border: 3px dashed yellow;
+  }
+  .orangeline {
+    border: 3px dashed orange;
+  }
+  
+  /* scrollbar appearance */
+  
+  ::-webkit-scrollbar {
+    width: 1.25em;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: rgb(49, 58, 70);
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: rgb(100, 119, 144);
+    border: .25em solid rgb(49, 58, 70);
+    border-radius: 100vw;
+  }
+  
+  /* end of scrollbar appearance */
+
+  /* start of Nav appearance */
+
+  .nav_links {
+	text-decoration: none;
+  }
+
+  a.cleanlinks {
+    color: var(--site-medium-blue);
+    text-decoration: none;
+    font-weight: 400;
+  }
+  
+  a.cleanlinks:hover {
+    color: #141492;
+  }
+
+  .name_styling {
+    color: var(--site-medium-blue);
+    font-weight: 400;
+  }
+
+.Hero_container,
+.Hero_container-fluid,
+.Hero_container-xxl,
+.Hero_container-xl,
+.Hero_container-lg,
+.Hero_container-md,
+.Hero_container-sm {
+  padding-right: var(--bs-gutter-x, 5rem);
+  padding-left: var(--bs-gutter-x, 5rem);
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 3rem;
+  background: url("./assets/heroimage2.jpg") no-repeat;
+  background-size:cover;
+  height: 100vh;
+}
+
+.projects_container,
+.projects_container-fluid,
+.projects_container-xxl,
+.projects_container-xl,
+.projects_container-lg,
+.projects_container-md,
+.projects_container-sm {
+  padding-right: var(--bs-gutter-x, 5rem);
+  padding-left: var(--bs-gutter-x, 5rem);
+  margin-right: auto;
+  margin-left: auto;
+  height:auto;
+}
+
+.name_container {
+    position: relative;
+    display: flex;
+    width: auto;
+    font-size: 2rem;
+    margin-right: auto;
+}
+
+.heroheightauto {
+  height: auto;
+}
+
+.link_container {
+    display: flex;
+    margin-left: auto;
+    gap: 1.75rem;
+    font-size: 1.5rem;
+    line-height: 2;
+}
+
+.hero_info_container {
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+}
+
+.hero_img_container {
+    width: fit-content;
+    margin-left: auto;
+    margin-right: -20px;
+    margin-bottom: auto;
+}
+
+.hero_content_container {
+    display: flex;
+    padding-top: 8rem;
+    margin-bottom: 100px;
+}
+
+.hero_title {
+    font-size: 4rem;
+}
+
+.paragraph_text_size {
+    font-size: 1.2rem;
+}
+
+.width100vw {
+    width: 100vw;
+}
+
+.textwhite {
+    color: #fff !important;
+}
+
+.textblack {
+    color: #000 !important;
+}
+
+.pixels {
+    margin-top: 100px;
+    height: 500px;
+}
+
+.line_title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.titlewidth {
+    width: 33%;
+}
+
+.bordertop {
+    width: 500px;
+    margin-left: -150px;
+    margin-right: -150px;
+}
+
+.bluecircleblur {
+  position:absolute;
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+  background: rgba(0, 0, 255, 0.5);
+  left: -150px;
+  top: 600px;
+  filter: blur(150px);
+}
+
+.textcenter {
+  text-align: center;
+}
+
+/* project card */
+
+.projects_container {
+  position: relative;
+  display: flex;
+  /* background: url('./assets/circuit3.png') no-repeat; */
+  width: 100%;
+  background-size: 1500px;
+  background-position-y: center;
+}
+
+.project_card_container {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:40px;
+  margin-bottom: 150px;
+}
+
+.project_card {
+  display: flex;
+  flex-direction: column;
+  width: 375px;
+  height: 450px;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding: 20px;
+  border-radius: 3%;
+  /* background: rgba(255, 255, 255, 0.74); */
+  border: solid 2px black;
+  box-shadow: 0 0 8px 0.4rem rgba(0, 0, 0, 0.1);
+}
+
+.project_card:hover {
+  display: flex;
+  flex-direction: column;
+  width: 375px;
+  height: 450px;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding: 20px;
+  border-radius: 3%;
+  /* background: rgba(255, 255, 255, 0.74); */
+  border: solid 2px black;
+  box-shadow: 0 0 8px 0.3rem rgba(0, 0, 0, 0.3);
+}
+
+.project_card_image1 {
+  width: 100%;
+  height: 45%;
+  background: url('./assets/dlpageimg.jpg') no-repeat;
+  background-size: cover;
+  border: solid 2px black;
+}
+
+.project_card_image2 {
+  width: 100%;
+  height: 45%;
+  background: url('./assets/dldashboard.jpg') no-repeat;
+  background-size: cover;
+  border: solid 2px black;
+}
+
+.project_card_image3 {
+  width: 100%;
+  height: 45%;
+  background: url('./assets/smartcontract.png') no-repeat;
+  background-size: cover;
+  border: solid 2px black;
+}
+
+.dlhomepagetext {
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.dlproject_btn {
+  display: flex;
+  gap:25px;
+  align-items: center;
+  justify-content: center;
+}
+
+.project_card_button {
+  border-radius: 8px;
+  margin-top: 20px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  background: rgb(253, 179, 41);
+  cursor: pointer;
+}
+
+.project_card_button:hover {
+  border-radius: 8px;
+  margin-top: 20px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  background: rgb(250, 204, 118);
+  cursor: pointer;
+}
+
+.card_header {
+  width: 100%;
+  padding-left: 38%;
+  padding-top: 25px;
+  font-size: 36px;
+}
+
+.card_note {
+  margin-left: 110px;
+  margin-right: 90px;
+  margin-top: 15px;
+  font-size: 18px;
+}
+
+/* Mybrain section */
+
+.mybrain {
+    background: url('./assets/mybrain3.png') no-repeat;
+    height: 100%;
+    width: 100%;
+    background-size: 1500px;
+    background-position-x: center;
+    background-size:contain;
+}
