@@ -329,10 +329,10 @@
 /* Mybrain section */
 
 .mybrain {
-    background: url('./assets/mybrain3.png') no-repeat;
+    background: url('./assets/mybrain4.png') no-repeat;
     height: 100%;
     width: 100%;
     background-size: 1500px;
     background-position-x: center;
-    background-size:contain;
+    background-size:auto;
 }
