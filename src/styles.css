@@ -1,89 +1,93 @@
 :root {
-    --site-medium-blue: rgb(90, 121, 165);
-    --site-light-blue: rgb(190, 206, 237);
-    --sitegreytrans: #38384c00;
-    --sitegrey: #38384c;
-    --bluetext: #4f95ff;
-    --color-b: black;
-    --color-w: #fff;
-    --color-r: rgb(255, 0, 0);
-    --color-y: rgb(245, 245, 9);
-    --color-g: rgb(12, 236, 12);
-    --color-b: rgb(9, 9, 245);
-    --color-a: rgb(127, 255, 212);
-    --color-p: rgb(255, 192, 203);
-  }
+  --site-medium-blue: rgb(90, 121, 165);
+  --site-light-blue: rgb(190, 206, 237);
+  --sitegreytrans: #38384c00;
+  --sitegrey: #38384c;
+  --bluetext: #4f95ff;
+  --color-b: black;
+  --color-w: #fff;
+  --color-r: rgb(255, 0, 0);
+  --color-y: rgb(245, 245, 9);
+  --color-g: rgb(12, 236, 12);
+  --color-b: rgb(9, 9, 245);
+  --color-a: rgb(127, 255, 212);
+  --color-p: rgb(255, 192, 203);
+}
 
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  @media (prefers-reduced-motion: no-preference) {
-    :root {
-      scroll-behavior: smooth;
-    }
-  }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-  body {
-    background: #372f5c;
+@media (prefers-reduced-motion: no-preference) {
+  :root {
+    scroll-behavior: smooth;
   }
-  
-  .blueline {
-    border: 3px dashed blue;
-  }
-  .redline {
-    border: 3px dashed red;
-  }
-  .greenline {
-    border: 3px dashed green;
-  }
-  .yellowline {
-    border: 3px dashed yellow;
-  }
-  .orangeline {
-    border: 3px dashed orange;
-  }
-  
-  /* scrollbar appearance */
-  
-  ::-webkit-scrollbar {
-    width: 1.25em;
-  }
-  
-  ::-webkit-scrollbar-track {
-    background: rgb(49, 58, 70);
-  }
-  
-  ::-webkit-scrollbar-thumb {
-    background: rgb(100, 119, 144);
-    border: .25em solid rgb(49, 58, 70);
-    border-radius: 100vw;
-  }
-  
-  /* end of scrollbar appearance */
+}
 
-  /* start of Nav appearance */
+body {
+  background: #372f5c;
+}
 
-  .nav_links {
-	text-decoration: none;
-  }
+.blueline {
+  border: 3px dashed blue;
+}
 
-  a.cleanlinks {
-    color: var(--site-medium-blue);
-    text-decoration: none;
-    font-weight: 400;
-  }
-  
-  a.cleanlinks:hover {
-    color: #141492;
-  }
+.redline {
+  border: 3px dashed red;
+}
 
-  .name_styling {
-    color: var(--site-medium-blue);
-    font-weight: 400;
-  }
+.greenline {
+  border: 3px dashed green;
+}
+
+.yellowline {
+  border: 3px dashed yellow;
+}
+
+.orangeline {
+  border: 3px dashed orange;
+}
+
+/* scrollbar appearance */
+
+::-webkit-scrollbar {
+  width: 1.25em;
+}
+
+::-webkit-scrollbar-track {
+  background: rgb(49, 58, 70);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(100, 119, 144);
+  border: .25em solid rgb(49, 58, 70);
+  border-radius: 100vw;
+}
+
+/* end of scrollbar appearance */
+
+/* start of Nav appearance */
+
+.nav_links {
+  text-decoration: none;
+}
+
+a.cleanlinks {
+  color: var(--site-medium-blue);
+  text-decoration: none;
+  font-weight: 400;
+}
+
+a.cleanlinks:hover {
+  color: #141492;
+}
+
+.name_styling {
+  color: var(--site-medium-blue);
+  font-weight: 400;
+}
 
 .Hero_container,
 .Hero_container-fluid,
@@ -98,7 +102,7 @@
   margin-left: auto;
   padding-top: 3rem;
   background: url("./assets/heroimage2.jpg") no-repeat;
-  background-size:cover;
+  background-size: cover;
   height: 100vh;
 }
 
@@ -113,15 +117,15 @@
   padding-left: var(--bs-gutter-x, 5rem);
   margin-right: auto;
   margin-left: auto;
-  height:auto;
+  height: auto;
 }
 
 .name_container {
-    position: relative;
-    display: flex;
-    width: auto;
-    font-size: 2rem;
-    margin-right: auto;
+  position: relative;
+  display: flex;
+  width: auto;
+  font-size: 2rem;
+  margin-right: auto;
 }
 
 .heroheightauto {
@@ -129,77 +133,77 @@
 }
 
 .link_container {
-    display: flex;
-    margin-left: auto;
-    gap: 1.75rem;
-    font-size: 1.5rem;
-    line-height: 2;
+  display: flex;
+  margin-left: auto;
+  gap: 1.75rem;
+  font-size: 1.5rem;
+  line-height: 2;
 }
 
 .hero_info_container {
-    display: flex;
-    flex-direction: column;
-    width: 48%;
+  display: flex;
+  flex-direction: column;
+  width: 48%;
 }
 
 .hero_img_container {
-    width: fit-content;
-    margin-left: auto;
-    margin-right: -20px;
-    margin-bottom: auto;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: -20px;
+  margin-bottom: auto;
 }
 
 .hero_content_container {
-    display: flex;
-    padding-top: 8rem;
-    margin-bottom: 100px;
+  display: flex;
+  padding-top: 8rem;
+  margin-bottom: 100px;
 }
 
 .hero_title {
-    font-size: 4rem;
+  font-size: 4rem;
 }
 
 .paragraph_text_size {
-    font-size: 1.2rem;
+  font-size: 1.2rem;
 }
 
 .width100vw {
-    width: 100vw;
+  width: 100vw;
 }
 
 .textwhite {
-    color: #fff !important;
+  color: #fff !important;
 }
 
 .textblack {
-    color: #000 !important;
+  color: #000 !important;
 }
 
 .pixels {
-    margin-top: 100px;
-    height: 500px;
+  margin-top: 100px;
+  height: 500px;
 }
 
 .line_title {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    padding-top: 100px;
-    padding-bottom: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .titlewidth {
-    width: 33%;
+  width: 33%;
 }
 
 .bordertop {
-    width: 500px;
-    margin-left: -150px;
-    margin-right: -150px;
+  width: 500px;
+  margin-left: -150px;
+  margin-right: -150px;
 }
 
 .bluecircleblur {
-  position:absolute;
+  position: absolute;
   width: 300px;
   height: 300px;
   border-radius: 100%;
@@ -228,7 +232,7 @@
   position: relative;
   margin-left: auto;
   margin-right: auto;
-  margin-top:40px;
+  margin-top: 40px;
   margin-bottom: 150px;
 }
 
@@ -291,7 +295,7 @@
 
 .dlproject_btn {
   display: flex;
-  gap:25px;
+  gap: 25px;
   align-items: center;
   justify-content: center;
 }
@@ -341,13 +345,15 @@
   height: 100%;
   display: flex;
   justify-content: center;
-  align-items: center;background: url('./assets/mybrain5.png') no-repeat;
+  align-items: center;
+  background: url('./assets/mybrain5.png') no-repeat;
   background-size: 1400px;
   background-position-x: center;
   /* background-size:auto; */
   background-position-y: 25px;
-  overflow:hidden;
+  overflow: hidden;
   /* background-color: #141492 */
+  margin-bottom: 90px;
 }
 
 .mybrain h2 {
@@ -364,7 +370,7 @@
   height: 100%;
   left: 0;
   top: 0;
-  pointer-events:none;
+  pointer-events: none;
 }
 
 .mybrain .set div {
@@ -416,53 +422,48 @@
 
 .mybrain .set div:nth-child(8) {
   top: 70%;
-  animation: animate  0s linear infinite;
+  animation: animate 0s linear infinite;
   animation-delay: -6s;
 }
 
-@keyframes animate 
-{
-  0%
-  {
+@keyframes animate {
+  0% {
     opacity: 0;
     left: -10%;
     transform: translateY(-20px) rotate(0deg);
   }
-  10%
-  {
+
+  10% {
     opacity: 0;
     transform: translateX(-20px) rotate(15deg);
   }
-  20%
-  {
+
+  20% {
     transform: translateX(-20px) rotate(45deg);
   }
-  40%
-  {
+
+  40% {
     opacity: 1;
     transform: translateX(-20px) rotate(90deg);
   }
-  60%
-  {
+
+  60% {
     opacity: 1;
     transform: translateX(-20px) rotate(135deg);
   }
-  80%
-  {
+
+  80% {
     transform: translateX(-20px) rotate(180deg);
   }
-  80%
-  {
+
+  80% {
     opacity: 1;
-    transform: translateX(-20px) ro
-    tate(195deg);
+    transform: translateX(-20px) ro tate(195deg);
   }
-  90%
-  {
-    
-  }
-  100%
-  {
+
+  90% {}
+
+  100% {
     opacity: 0;
     left: 80%;
     transform: translateY(-20px) rotate(225deg);
@@ -482,3 +483,45 @@
 }
 
 /* knowlegde section end */
+
+/* About section start */
+
+.profile {
+  background: rgb(55,47,92);
+  background: -moz-linear-gradient(180deg, rgba(55,47,92,0) 0%, rgba(110,94,181,1) 100%);
+  background: -webkit-linear-gradient(180deg, rgba(55,47,92,0) 0%, rgba(110,94,181,1) 100%);
+  background: linear-gradient(180deg, rgba(55,47,92,0) 0%, rgba(110,94,181,1) 100%);
+}
+
+.profilecontainer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.profileaboutme {
+  font-size: 18px;
+}
+
+.profilename {
+  color: #8874df;
+  font-size: 42px;
+  font-weight: 600;
+}
+
+.profiledescription {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.profileaboutme {
+  font-size: 15px;
+}
+
+/* About section end */
