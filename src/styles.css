@@ -89,6 +89,14 @@ a.cleanlinks:hover {
   font-weight: 400;
 }
 
+@media (max-width: 768px) {
+  .name_styling {
+    color: var(--site-medium-blue);
+    font-weight: 400;
+    font-size: 24px;
+  }
+}
+
 .Hero_container,
 .Hero_container-fluid,
 .Hero_container-xxl,
@@ -136,7 +144,7 @@ a.cleanlinks:hover {
   display: flex;
   margin-left: auto;
   gap: 1.75rem;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   line-height: 2;
 }
 
@@ -146,15 +154,42 @@ a.cleanlinks:hover {
   width: 48%;
 }
 
+@media (max-width: 1024px) {
+  .hero_info_container {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+  }
+}
+
 .hero_img_container {
+  display: flex;
   width: fit-content;
   margin-left: auto;
   margin-right: -20px;
   margin-bottom: auto;
 }
 
+@media (max-width: 1024px) {
+  .hero_img_container img{
+    display:block;
+    width: 400px;
+    margin-left: auto;
+    margin-right: 0px;
+    margin-bottom: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero_img_container img{
+    display:block;
+    width: 0px;
+  }
+}
+
 .hero_content_container {
   display: flex;
+  flex-direction: row;
   padding-top: 8rem;
   margin-bottom: 100px;
 }
@@ -163,8 +198,20 @@ a.cleanlinks:hover {
   font-size: 4rem;
 }
 
+@media (max-width: 1024px) {
+  .hero_title {
+    font-size: 3rem;
+  }
+}
+
 .paragraph_text_size {
   font-size: 1.2rem;
+}
+
+@media (max-width: 1024px) {
+  .paragraph_text_size {
+    font-size: 0.9rem;
+  }
 }
 
 .width100vw {
@@ -222,6 +269,7 @@ a.cleanlinks:hover {
 .projects_container {
   position: relative;
   display: flex;
+  flex-wrap: wrap;
   /* background: url('./assets/circuit3.png') no-repeat; */
   width: 100%;
   background-size: 1500px;
@@ -230,10 +278,22 @@ a.cleanlinks:hover {
 
 .project_card_container {
   position: relative;
-  margin-left: auto;
-  margin-right: auto;
+  display: flex;
+  margin-left: 10px;
+  margin-right: 10px;
   margin-top: 40px;
   margin-bottom: 150px;
+}
+
+@media (max-width: 768px) {
+  .project_card_container {
+    position: relative;
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+  }
 }
 
 .project_card {
@@ -241,13 +301,12 @@ a.cleanlinks:hover {
   flex-direction: column;
   width: 375px;
   height: 450px;
-  margin-top: auto;
-  margin-bottom: auto;
   padding: 20px;
   border-radius: 3%;
   /* background: rgba(255, 255, 255, 0.74); */
   border: solid 2px black;
   box-shadow: 0 0 8px 0.4rem rgba(0, 0, 0, 0.1);
+  transition: 0.5s;
 }
 
 .project_card:hover {
@@ -307,8 +366,9 @@ a.cleanlinks:hover {
   padding-right: 25px;
   padding-top: 3px;
   padding-bottom: 3px;
-  background: rgb(253, 179, 41);
+  background: #6d5eb3;
   cursor: pointer;
+  color: rgba(255, 255, 255, 0.8);
 }
 
 .project_card_button:hover {
@@ -318,8 +378,9 @@ a.cleanlinks:hover {
   padding-right: 25px;
   padding-top: 3px;
   padding-bottom: 3px;
-  background: rgb(250, 204, 118);
+  background: #a898f0;
   cursor: pointer;
+  color:#000;
 }
 
 .card_header {
@@ -329,11 +390,31 @@ a.cleanlinks:hover {
   font-size: 36px;
 }
 
+@media( max-width:1024px) {
+  .card_header {
+    width: 100%;
+    padding-left: 13%;
+    padding-right: auto;
+    font-size: 32px;
+  }
+}
+
 .card_note {
   margin-left: 110px;
   margin-right: 90px;
   margin-top: 15px;
   font-size: 18px;
+  text-align: center;
+}
+
+@media( max-width:1024px) {
+  .card_note {
+    margin-left: 110px;
+    margin-right: 90px;
+    margin-top: 15px;
+    font-size: 16px;
+    text-align: center;
+  }
 }
 
 /* knowlegde section start */
@@ -346,7 +427,7 @@ a.cleanlinks:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: url('./assets/mybrain5.png') no-repeat;
+  background: url('./assets/mybrain6.png') no-repeat;
   background-size: 1400px;
   background-position-x: center;
   /* background-size:auto; */
@@ -380,7 +461,7 @@ a.cleanlinks:hover {
 
 .mybrain .set div:nth-child(1) {
   top: 20%;
-  animation: animate 10s linear infinite;
+  animation: animate 14s linear infinite;
   animation-delay: -7s;
 }
 
@@ -487,21 +568,20 @@ a.cleanlinks:hover {
 /* About section start */
 
 .profile {
-  background: rgb(55,47,92);
-  background: -moz-linear-gradient(180deg, rgba(55,47,92,0) 0%, rgba(110,94,181,1) 100%);
-  background: -webkit-linear-gradient(180deg, rgba(55,47,92,0) 0%, rgba(110,94,181,1) 100%);
-  background: linear-gradient(180deg, rgba(55,47,92,0) 0%, rgba(110,94,181,1) 100%);
+  background: rgb(55, 47, 92);
+  background: -moz-linear-gradient(180deg, rgba(55, 47, 92, 0) 0%, rgba(110, 94, 181, 1) 100%);
+  background: -webkit-linear-gradient(180deg, rgba(55, 47, 92, 0) 0%, rgba(110, 94, 181, 1) 100%);
+  background: linear-gradient(180deg, rgba(55, 47, 92, 0) 0%, rgba(110, 94, 181, 1) 100%);
 }
 
 .profilecontainer {
   position: relative;
   display: flex;
   flex-direction: column;
-  width: 450px;
+  width: 430px;
   margin-right: auto;
   margin-left: auto;
   text-align: center;
-  padding-bottom: 50px;
 }
 
 .profileaboutme {
@@ -522,6 +602,33 @@ a.cleanlinks:hover {
 
 .profileaboutme {
   font-size: 15px;
+}
+
+.singlecol {
+  max-width: 750px;
+  margin: 0 auto;
+}
+
+.social-media-icons-white-switch {
+  height: auto;
+  color: #fff;
+  font-size: 1.6rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-media-icons-white a {
+  color: #fff;
+  font-size: 1.5rem;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.social-media-icons-white a:hover {
+  color: #8874df;
+  font-size: 1.5rem;
 }
 
 /* About section end */

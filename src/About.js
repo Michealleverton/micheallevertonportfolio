@@ -4,12 +4,29 @@ import ProfilePic from './assets/profilepic2.png'
 function About() {
   return (
     <section className='' id='about'>
-    <div className='profilecontainer textwhite mt-5'>
-      <div className='profilename'>Micheal Leverton</div>
-      <div className='profiledescription'>Developer And Designer</div>
-      <div className='profileaboutme'>Not even a year after the first computer came to market  in 1971, I was born. 8 years later I got my first computer and learned basic language. I've been coding ever since. I have seen the progression of the Web from start to Web3.0. The blockchain is in its infancy and I have decided to grow and learn with it. <br/>Let me help you and your team continue to grow and succeed. </div>
-      <div className='profilepic'><img alt="" src={ProfilePic} /></div>
-    </div>
+      <div className='profilecontainer textwhite mt-5'>
+        <div className='profilename'>Micheal Leverton</div>
+        <div className='profiledescription'>Developer And Designer</div>
+        <div className='profileaboutme'>Not even a year after the first computer came to market  in 1971, I was born. 8 years later I got my first computer and learned basic language and I've been coding ever since. I have seen the progression of the Web from start to Web3.0. The blockchain is in its infancy and I have decided to grow and learn with it. <br />My project will speak for itself.<br />Let me help you and your team continue to grow and succeed. </div>
+        <div className='singlecol social-media-icons-white d-flex pt-4'>
+          <a href='https://facebook.com'>
+            <i className="fa-brands fa-facebook"></i>
+          </a>
+          <a href='https://instagram.com'>
+            <i className="fa-brands fa-instagram"></i>
+          </a>
+          <a href='https://twitter.com'>
+            <i className="fa-brands fa-twitter"></i>
+          </a>
+          <a href='https://tiktok.com'>
+            <i className="fa-brands fa-tiktok"></i>
+          </a>
+          <a href='https://youtube.com'>
+            <i className="fa-brands fa-youtube"></i>
+          </a>
+        </div>
+        <div className='profilepic'><img alt="" src={ProfilePic} /></div>
+      </div>
     </section>
   )
 }

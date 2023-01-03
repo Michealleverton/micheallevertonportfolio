@@ -15,7 +15,7 @@ import infuralogo from "./assets/infuralogo.png"
 function Knowledge() {
   return (
     <section className='mybrain' id='knowledge'>
-      <h2 className='bringfowardone'> How &nbsp;</h2><h2 className='text-orange'> My Brain &nbsp;</h2><h2 className='bringfowardone'> Is Wired </h2>
+      <h2 className='bringfowardone'> How My&nbsp;</h2><h2 className='text-orange'>  Brain &nbsp;</h2><h2 className='bringfowardone'> Is Wired </h2>
       <div className='set'>
         <div><img alt="" className="logo" src={leaf1} /></div>
         <div><img alt="" className="logo" src={leaf3} /></div>
