@@ -25,7 +25,7 @@ function About() {
             <i className="fa-brands fa-youtube"></i>
           </a>
         </div>
-        <div className='profilepic'><img alt="" src={ProfilePic} /></div>
+        <div><img  className='profilepic' alt="" src={ProfilePic} /></div>
       </div>
     </section>
   )

@@ -12,10 +12,10 @@ function Hero() {
                     Micheal Leverton
                 </div>
                 <div className="link_container">
-                    <a href="#projects" className="cleanlinks textwhite">Projects</a>
+                    <a href="#projects" className="cleanlinks textwhite">Project</a>
                     <a href="#knowledge" className="cleanlinks textwhite">Knowledge</a>
                     <a href="#about" className="cleanlinks textwhite">About</a>
-                    <a href="#/" className="cleanlinks textwhite">Hire</a>
+                    <a href="https://us21.list-manage.com/contact-form?u=ac1c083751d9fe609a58f1cfd&form_id=9667047165339f581d0cdad155178452" className="cleanlinks textwhite">Hire</a>
                 </div>
             </div>
 

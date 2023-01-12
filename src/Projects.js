@@ -52,8 +52,8 @@ function Projects() {
     return (
         <section className='' id='projects'>
 
-            <div className='card_header textwhite'>Crypto Lottery and Admin Dashboard Project</div>
-            <div className='card_note textwhite'><p>To use this crypto lottery project and admin dashboard, you will have to have the Goerli test network connected in your wallet with test Goerli Eth. Due to Shiba Inu token not being in the testnet, you will have to import and use my Levy Test Token to purchase the shiba tickets. <br/>Levy Test token contract address is ( 0x8C7190802Ae13025adE069D2a11Eb9dF2F52A071 )<br/> Lastly click the LLT Faucet button below to get some LTT (Levy Test Token) from my faucet and have some fun.</p></div>
+            <div className='card_header textwhite'>Crypto Lottery Project</div>
+            <div className='card_note textwhite'><p>To use this crypto lottery project you will have to have the Goerli test network connected in your wallet with test Goerli Eth. Due to Shiba Inu token not being in the testnet, you will have to import and use my Levy Test Token to purchase the shiba tickets. <br/>Levy Test token contract address is ( 0x8C7190802Ae13025adE069D2a11Eb9dF2F52A071 )<br/> Lastly click the LLT Faucet button below to get some LTT (Levy Test Token) from my faucet and have some fun.</p></div>
 
             <div className='projects_container'>
 
