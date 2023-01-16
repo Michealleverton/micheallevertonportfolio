@@ -2,7 +2,7 @@ import Projects from "./Projects"
 import Knowledge from "./Knowledge"
 import Hero from "./Hero"
 import About from "./About"
-import ContactForm from "./ContactForm"
+// import ContactForm from "./ContactForm"
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
       <Projects />
       <Knowledge />
       <About />
-      <ContactForm />
+      {/* <ContactForm /> */}
 
     </div>
 

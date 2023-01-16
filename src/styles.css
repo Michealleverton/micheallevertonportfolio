@@ -30,6 +30,35 @@ body {
   background: #372f5c;
 }
 
+body div {
+  border: 3px dashed blue;
+}
+
+.bg_grey {
+  background-color: #38384c;
+}
+
+.bg_grey_opacity {
+  background-color: #38384c;
+  background: rgba(56, 56, 76, .9);
+}
+
+.bg_blue {
+  background-color: #3e2f93;
+}
+
+.bg_white {
+  background-color: #fff;
+}
+
+.bg_red {
+  background-color: rgb(255, 0, 0);
+}
+
+.bg_lightblue {
+  background-color: #b5acea;
+}
+
 .blueline {
   border: 3px dashed blue;
 }
@@ -404,16 +433,18 @@ a.cleanlinks:hover {
 }
 
 .card_note {
-  margin-left: 110px;
+  width: 100%;
+  margin-left: 0px;
   margin-right: 90px;
   margin-top: 15px;
   font-size: 18px;
   text-align: center;
+  overflow: hidden;
 }
 
 @media( max-width:1024px) {
   .card_note {
-    margin-left: 110px;
+    margin-left: 0px;
     margin-right: 90px;
     margin-top: 15px;
     font-size: 16px;
@@ -447,6 +478,26 @@ a.cleanlinks:hover {
   font-weight: 600;
   text-transform: uppercase;
   text-shadow: 5px 5px #0000007d;
+}
+
+@media (max-width: 1200px) {
+  .mybrain h2 {
+    color: #fff;
+    font-size: 3em;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-shadow: 5px 5px #0000007d;
+  }
+}
+
+@media (max-width: 1024px) {
+  .mybrain h2 {
+    color: #fff;
+    font-size: 2em;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-shadow: 5px 5px #0000007d;
+  }
 }
 
 .mybrain .set {
@@ -694,6 +745,12 @@ a.cleanlinks:hover {
   overflow: hidden;
 }
 
+.hiremetitle {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
 /* End of contact form */
 
 input,
@@ -704,4 +761,24 @@ textarea {
   border-radius: 0.5rem;
   margin-bottom: 0.5rem;
   margin-top: 0.5rem;
+}
+
+.fs_1 {
+  font-size: 1em;
+}
+
+.fs_2 {
+  font-size: 1.25em;
+}
+
+.fs_3 {
+  font-size: 1.5em;
+}
+
+.fs_4 {
+  font-size: 1.75em;
+}
+
+.fs_5 {
+  font-size: 2em;
 }
