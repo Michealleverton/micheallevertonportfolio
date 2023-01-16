@@ -585,6 +585,7 @@ a.cleanlinks:hover {
   width: 430px;
   margin-right: auto;
   margin-left: auto;
+  padding-top: 1.7rem;
   text-align: center;
 }
 
@@ -651,42 +652,56 @@ a.cleanlinks:hover {
 
 .contactcard {
   width: 28rem;
-  background: #4f95ff;
+  background: #4f95ff00;
   border-radius: 0.3rem;
   padding: 0.5rem 1rem;
   margin-right: auto;
   margin-left: auto;
   color: white;
+  box-shadow: 0 0 0.4rem 0.4rem rgba(0, 0, 0, 0.2);
+  margin-bottom: 5rem;
 }
 
-input[type=text], select, textarea {
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-  margin-top: 6px;
-  margin-bottom: 16px;
-  resize: vertical;
-}
-
-input[type=submit] {
-  background-color: #04AA6D;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
+.contactform_button {
+  border-radius: 8px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  background: #6d5eb3;
   cursor: pointer;
+  color: rgba(255, 255, 255, 0.8);
 }
 
-input[type=submit]:hover {
-  background-color: #45a049;
+.contactform_button:hover {
+  border-radius: 8px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  background: #a898f0;
+  cursor: pointer;
+  color:#000;
 }
 
-.formcontainer {
-  border-radius: 5px;
-  background-color: #f2f2f2;
-  padding: 20px;
+.chimpsmall {
+  /* border: 2px solid rgb(52, 181, 35); */
+  width: 0;
+  overflow: hidden;
 }
 
 /* End of contact form */
+
+input,
+textarea {
+  width: 100%;
+  padding: 6px;
+  outline: none;
+  border-radius: 0.5rem;
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
+}
