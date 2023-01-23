@@ -30,9 +30,14 @@ body {
   background: #372f5c;
 }
 
-body div {
+/* If you uncomment this body div element 
+it will put a border around every div 
+in your project to see were issues 
+may lie */
+
+/* body div {
   border: 3px dashed blue;
-}
+} */
 
 .bg_grey {
   background-color: #38384c;
@@ -634,9 +639,9 @@ a.cleanlinks:hover {
   display: flex;
   flex-direction: column;
   width: 430px;
+  margin-top: 0;
   margin-right: auto;
   margin-left: auto;
-  padding-top: 1.7rem;
   text-align: center;
 }
 
@@ -646,6 +651,12 @@ a.cleanlinks:hover {
 
 .profilename {
   color: #8874df;
+  font-size: 42px;
+  font-weight: 600;
+}
+
+.emailtext {
+  color: #a596e8;
   font-size: 42px;
   font-weight: 600;
 }
@@ -781,4 +792,59 @@ textarea {
 
 .fs_5 {
   font-size: 2em;
+}
+
+.hero {
+  position: relative;
+}
+
+.hero-title {
+  color: hsl(177, 46%, 65%);
+  font-size: 6rem;
+  line-height: 1;
+  font-weight: 700;
+  text-transform: uppercase;
+  position: relative;
+  padding-top: 300px;
+  padding-left: 75px;
+  -webkit-text-stroke: 2px;
+  -webkit-text-stroke-color: #000;
+}
+
+.hero-img {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50px;
+  opacity: 0.2;
+  mask-image: url(./assets/ink-splash.svg);
+  mask-size: contain;
+  mask-repeat: no-repeat;
+  -webkit-mask-image: url(./assets/ink-splash.svg);
+  -webkit-mask-size: contain;
+  -webkit-mask-repeat: no-repeat;
+  z-index: -2;
+}
+
+.clear foot {
+  display:none;
+}
+
+.hider {
+  position: absolute;
+  left: -5000px;
+}
+
+.about-outside {
+  position: relative;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  gap: 5rem;
+  overflow: hidden;
+  margin-top: 0;
+}
+
+.formholder {
+  padding-top: 20px;
 }

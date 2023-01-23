@@ -24,7 +24,7 @@ function Knowledge() {
         <div><img alt="" className="logo" src={trufflelogo} /></div>
         <div><img alt="" className="logo" src={apidata} /></div>
       </div>
-      <div className='set set2 yellowline'>
+      <div className='set set2'>
         <div><img alt="" className="logo" src={leaf2} /></div>
         <div><img alt="" className="logo" src={leaf4} /></div>
         <div><img alt="" className="logo" src={etherjs} /></div>
