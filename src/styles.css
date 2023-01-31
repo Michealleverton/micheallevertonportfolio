@@ -146,6 +146,7 @@ a.cleanlinks:hover {
   background: url("./assets/heroimage2.jpg") no-repeat;
   background-size: cover;
   height: 100vh;
+  width: 100%;
 }
 
 .projects_container,
@@ -840,11 +841,37 @@ textarea {
   display: flex;
   width: 100%;
   justify-content: center;
-  gap: 5rem;
   overflow: hidden;
   margin-top: 0;
 }
 
+@media (width: 768px) {
+  .about-outside {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    gap: 5rem;
+    overflow: hidden;
+    margin-top: 0;
+  }
+}
+
 .formholder {
   padding-top: 20px;
+}
+
+.asterisk {
+  color: red;
+  font-weight: 900;
+}
+
+.requireindicator {
+  margin-bottom: 1rem;
+  font-style: italic;
+}
+
+.form_submit_btn {
+  margin-top: 2rem;
 }
