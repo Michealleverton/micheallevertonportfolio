@@ -4,17 +4,25 @@ function Testform() {
 
     const [formState, setFormState] = useState({})
 
+    const name = document.getElementById('name')
+    const email = document.getElementById('email')
+    const subject = document.getElementById('subject')
+    const phone = document.getElementById('phone')
+    const message = document.getElementById('message')
+
     const changeHandler = (event) => {
         setFormState({ ...formState, [event.target.name]: event.target.value })
     }
+
+    console.log(formState)
 
     const submitHandler = () => {
         const config = {
             SecureToken: "1d82c763-47c8-41d0-88a0-8eec88af8e56",
             To: 'micheallevertonportfolio@gmail.com',
-            From: "email",
-            Subject: "subject",
-            Body: "name, phone, message",
+            From: email,
+            Subject: subject,
+            Body: name, phone, message,
         }
         if(window.Email) {
             window.Email.send(config)
