@@ -710,7 +710,7 @@ a.cleanlinks:hover {
 .contactcardholder {
   position: relative;
   display: flex;
-  margin-top: 3rem;
+  margin-top: 2rem;
 }
 
 .contactcard {
@@ -719,7 +719,7 @@ a.cleanlinks:hover {
   border-radius: 0.3rem;
   padding: 0.5rem 1rem;
   margin-right: auto;
-  margin-left: auto;
+  margin-left: 4rem;
   color: white;
   box-shadow: 0 0 0.4rem 0.4rem rgba(0, 0, 0, 0.2);
   margin-bottom: 5rem;
@@ -773,6 +773,17 @@ textarea {
   border-radius: 0.5rem;
   margin-bottom: 0.5rem;
   margin-top: 0.5rem;
+  background: rgba(255, 255, 255, 0.893);
+}
+
+.label_style {
+  font-size: 1rem;
+}
+
+.form_header {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
 }
 
 .fs_1 {

@@ -1,6 +1,6 @@
 import React from 'react'
 import ProfilePic from './assets/profilepic2.png'
-import Testform from './Testform'
+import FormTest from './FormTest'
 // import Imagemask from "./Imagemask"
 
 function About() {
@@ -36,7 +36,7 @@ function About() {
           </div>
         </div>
 
-        <Testform />
+        <FormTest />
 
       </div>
 
