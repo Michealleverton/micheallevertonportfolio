@@ -52,9 +52,9 @@
 }
 
 .closeplacement {
-    position: absolute;
-    top: 50px;
-    left: 500px;
+    position: relative;
+    top: 0px;
+    left: 215px;
     color: white;
     z-index: 2000;
     cursor: pointer;

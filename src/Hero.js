@@ -1,30 +1,10 @@
 import React from 'react'
 import heroimage from "./assets/screenshots.png"
-import './popupstyles.css'
-import FormTest from './FormTest'
 
 function Hero() {
 
-    let popup = document.getElementById("popup");
-
-    function openpopup() {
-        popup.classList.add("open-popup");
-    }
-
-    function closepopup() {
-        popup.classList.remove("open-popup");
-    }
-
     return (
         <section className='heroheightauto' id='Hero'>
-
-            <div className="">
-                <div class="popup" id="popup">
-                    <i onClick={closepopup} class="fa-solid fa-xmark text-white closeplacement"></i>
-                    <FormTest />
-                </div>
-            </div>
-
 
             <div className="bluecircleblur">...</div>
 
@@ -36,7 +16,7 @@ function Hero() {
                     <a href="#projects" className="cleanlinks textwhite">Project</a>
                     <a href="#knowledge" className="cleanlinks textwhite">Knowledge</a>
                     <a href="#about" className="cleanlinks textwhite">About</a>
-                    <a href="#/" onClick={openpopup} className="cleanlinks textwhite">Hire</a>
+                    <a href="#about" className="cleanlinks textwhite">Hire</a>
                 </div>
             </div>
 
