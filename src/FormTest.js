@@ -9,7 +9,7 @@ const FormTest = () => {
 
         emailjs.sendForm('service_mk1etxl', 'template_wx7febg', form.current, 'Ib1rLZFA-kJf6qt4L')
             .then((result) => {
-                console.log("Email was sent!");
+                window.location.replace('https://google.com')
             }, (error) => {
                 console.log(error.text);
             });
