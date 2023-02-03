@@ -856,14 +856,13 @@ textarea {
   margin-top: 0;
 }
 
-@media (width: 768px) {
+@media (max-width: 768px) {
   .about-outside {
     position: relative;
     display: flex;
     flex-direction: column;
     width: 100%;
     justify-content: center;
-    gap: 5rem;
     overflow: hidden;
     margin-top: 0;
   }

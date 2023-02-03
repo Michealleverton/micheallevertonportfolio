@@ -9,7 +9,7 @@ const FormTest = () => {
 
         emailjs.sendForm('service_mk1etxl', 'template_wx7febg', form.current, 'Ib1rLZFA-kJf6qt4L')
             .then((result) => {
-                window.location.replace('https://google.com')
+                window.location.replace('https://thankyous.netlify.app/')
             }, (error) => {
                 console.log(error.text);
             });
