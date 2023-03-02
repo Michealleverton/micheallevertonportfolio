@@ -33,8 +33,8 @@ const FormTest = () => {
                             <input type="email" name="Email" className="" id="email" required />
                         </div>
                         <div className="">
-                            <label className="label_style">Subject </label>
-                            <input type="text" name="Subject" className="" id="subject" />
+                            <label className="label_style">Subject <span className="asterisk">*</span></label>
+                            <input type="text" name="Subject" className="" id="subject" required />
                         </div>
                         <div className="">
                             <label className="label_style">Phone Number </label>

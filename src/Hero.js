@@ -1,5 +1,6 @@
 import React from 'react'
 import heroimage from "./assets/screenshots.png"
+import "./typing_effect.css"
 
 function Hero() {
 
@@ -32,14 +33,28 @@ function Hero() {
                             Full-Stack<br />Ethereum Solidity<br />Developer
                         </h6>
                     </div>
+
                     <div>
                         <p className="paragraph_text_size textwhite" data-aos="fade-up"
                             data-aos-offset="150"
-                            data-aos-delay="200"
+                            data-aos-delay="5"
                             data-aos-duration="700"
                             data-aos-easing="ease-in-out">
                             Let me help you with the frontend and backend of your projects.  I can start by helping with the page design in Photoshop, Dreamweaver, Figma or Webflow. Then I can help with the solidity smart contract development. Finishing off by helping in the creation of the frontend and connecting to the smart contract and displaying it on the frontend.
                         </p>
+                    </div>
+                    <div data-aos="fade-up"
+                            data-aos-offset="150"
+                            data-aos-delay="5"
+                            data-aos-duration="700"
+                            data-aos-easing="ease-in-out" class="wrapper">
+                        <div class="static-txt">I Make</div>
+
+                        <ul class="dynamic-txts">
+                            <li><span>FrontEnds</span></li>
+                            <li><span>Middleware</span></li>
+                            <li><span>BackEnds</span></li>
+                        </ul>
                     </div>
                 </div>
 

@@ -11,8 +11,8 @@ function About() {
         {/* <Imagemask /> */}
 
         <div className='minfoholder'>
-          <div className='profilecontainer textwhite mt-5'>
-            <div className='profilename'>Micheal Leverton</div>
+          <div className='profilecontainer textwhite mt-4'>
+            <div className='profilename mt-1'>Micheal Leverton</div>
             <div className='profiledescription'>Developer And Designer</div>
             <div className='profileaboutme'>Not even a year after the first computer came to market  in 1971, I was born. 8 years later I got my first computer and learned basic language and I've been coding ever since. I have seen the progression of the Web from start to Web3.0. The blockchain is in its infancy and I have decided to grow and learn with it. <br />My project will speak for itself.<br />Let me help you and your team continue to grow and succeed. </div>
             <div className='singlecol social-media-icons-white d-flex pt-4'>
