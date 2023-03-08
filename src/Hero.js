@@ -44,17 +44,20 @@ function Hero() {
                         </p>
                     </div>
                     <div data-aos="fade-up"
-                            data-aos-offset="150"
-                            data-aos-delay="5"
-                            data-aos-duration="700"
-                            data-aos-easing="ease-in-out" class="wrapper">
-                        <div class="static-txt">I Make</div>
+                        data-aos-offset="150"
+                        data-aos-delay="5"
+                        data-aos-duration="700"
+                        data-aos-easing="ease-in-out">
 
-                        <ul class="dynamic-txts">
-                            <li><span>FrontEnds</span></li>
-                            <li><span>Middleware</span></li>
-                            <li><span>BackEnds</span></li>
-                        </ul>
+                        <div class="wrapper">
+                            <div class="static-txt">I Do</div>
+                            <ul class="dynamic-txt">
+                                <li><span>Front Ends</span></li>
+                                <li><span>Middleware</span></li>
+                                <li><span>Back Ends</span></li>
+                                <li><span>Freelance</span></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
 
