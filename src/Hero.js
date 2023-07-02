@@ -49,9 +49,9 @@ function Hero() {
                         data-aos-duration="700"
                         data-aos-easing="ease-in-out">
 
-                        <div class="wrapper">
-                            <div class="static-txt">I Do</div>
-                            <ul class="dynamic-txt">
+                        <div className="wrapper">
+                            <div className="static-txt">I Do</div>
+                            <ul className="dynamic-txt">
                                 <li><span>Front Ends</span></li>
                                 <li><span>Middleware</span></li>
                                 <li><span>Back Ends</span></li>

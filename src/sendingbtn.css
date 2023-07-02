@@ -1,0 +1,51 @@
+.center{
+    position: absolute;
+    bottom: 8%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    width: 310px;
+    padding: 0 50px;
+    text-align: center;
+    box-sizing: border-box;
+    transition: all .3s ease .3s;
+    /* overflow: visible; */
+}
+
+.center button{
+    position: relative;
+    width: 100%;
+    border: none;
+    padding: 5px 0;
+    cursor: pointer;
+    outline: none;
+    border-radius: 50px;
+    background: linear-gradient(#3d42c2, #373bae, #31349b);
+    transition: .5s;
+}
+
+button:hover{
+    background: linear-gradient(#31349b, #373bae, #3d42c2)
+}
+
+button p{
+    color: white;
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 15px;
+}
+
+button .loading, button .fa{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+button .loading{
+    width: 100%;
+    border-radius: 50px;
+    background: linear-gradient(#3d42c2, #373bae, #31349b);
+    
+}

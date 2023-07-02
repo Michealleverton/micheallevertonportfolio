@@ -1,5 +1,6 @@
 import { useRef } from 'react'
 import emailjs from '@emailjs/browser'
+import './sendingbtn.css'
 
 const FormTest = () => {
     const form = useRef()
@@ -48,6 +49,14 @@ const FormTest = () => {
 
                         <div className="form_submit_btn">
                             <input type="submit" name="Submit" id="submit" value="Send" className="" />
+                        </div>
+
+                        <div className='center'>
+                            <button>
+                                <p>Send</p>
+                                <div className='loading'></div>
+                                <div className='fa fa-check'></div>
+                            </button>
                         </div>
 
                     </form>
