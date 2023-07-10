@@ -51,13 +51,13 @@ const FormTest = () => {
                             <input type="submit" name="Submit" id="submit" value="Send" className="" />
                         </div>
 
-                        <div className='center'>
+                        {/* <div className='center'>
                             <button>
                                 <p>Send</p>
                                 <div className='loading'></div>
                                 <div className='fa fa-check'></div>
                             </button>
-                        </div>
+                        </div> */}
 
                     </form>
                 </div>
