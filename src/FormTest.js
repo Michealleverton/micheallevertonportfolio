@@ -48,7 +48,7 @@ const FormTest = () => {
                         </div>
 
                         <div className="form_submit_btn">
-                            <input type="submit" name="Submit" id="submit" value="Send" className="" />
+                            <input type="submit" name="Submit" id="submit" value="Send" className="textcenter" />
                         </div>
 
                         {/* <div className='center'>
